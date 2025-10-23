@@ -13,7 +13,7 @@ export default function Products() {
     <h3><Link href={"/product/2"}>product 2</Link></h3>
     <h3><Link href={"/product/3"}>product 3</Link></h3>
 
-    <h3><Link href={`/product/${productId}`}>Product {productId}</Link></h3>
+    <h3><Link href={`/product/${productId }`}>Product {productId}</Link></h3>
     
     </>
 }
