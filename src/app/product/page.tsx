@@ -6,9 +6,11 @@ export default function Products() {
 
     <h1>Products List</h1>
 
-    <h3>products 1</h3>
-    <h3>products 2</h3>
-    <h3>products 3</h3>
+    <h3>
+        <Link href={"/product/1"}>product 1</Link>
+        </h3>
+    <h3><Link href={"/product/2"}>product 2</Link></h3>
+    <h3><Link href={"/product/3"}>product 3</Link></h3>
     
     </>
 }
