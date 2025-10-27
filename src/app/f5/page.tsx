@@ -1,3 +1,3 @@
 export default function F5() {
-    return <h1></h1>
+    return <h1>F5</h1>
 }
